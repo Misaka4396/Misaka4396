@@ -73,6 +73,12 @@
 </a>
 
 <br />
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Misaka4396&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=6" />
+</a>
+
+<br />
 <br />
 
 ---
