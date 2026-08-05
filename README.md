@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ===== CUSTOM BANNER ===== -->
-<img src="./assets/banner.svg" width="100%" alt="banner" />
+<img src="https://cdn.jsdelivr.net/gh/Misaka4396/Misaka4396@main/assets/banner.svg" width="100%" alt="banner" />
 
 <br />
 <br />
@@ -13,7 +13,7 @@
 <br />
 
 <!-- ===== RGB DIVIDER ===== -->
-<img src="./assets/divider.svg" width="85%" alt="divider" />
+<img src="https://cdn.jsdelivr.net/gh/Misaka4396/Misaka4396@main/assets/divider.svg" width="85%" alt="divider" />
 
 <br />
 
@@ -75,7 +75,7 @@
 <br />
 
 <!-- ===== RGB DIVIDER ===== -->
-<img src="./assets/divider.svg" width="85%" alt="divider" />
+<img src="https://cdn.jsdelivr.net/gh/Misaka4396/Misaka4396@main/assets/divider.svg" width="85%" alt="divider" />
 
 <br />
 
@@ -100,7 +100,7 @@
 <br />
 
 <!-- ===== RGB DIVIDER ===== -->
-<img src="./assets/divider.svg" width="85%" alt="divider" />
+<img src="https://cdn.jsdelivr.net/gh/Misaka4396/Misaka4396@main/assets/divider.svg" width="85%" alt="divider" />
 
 <br />
 
