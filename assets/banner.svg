@@ -1,27 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06060f"/>
-      <stop offset="50%" stop-color="#0a0f1a"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06060f"/>
+      <stop offset="0.5" stop-color="#0a0f1a"/>
+      <stop offset="1" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ffff"/>
-      <stop offset="40%" stop-color="#00d4ff"/>
-      <stop offset="70%" stop-color="#bf00ff"/>
-      <stop offset="100%" stop-color="#ff00ff"/>
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffff"/>
+      <stop offset="0.4" stop-color="#00d4ff"/>
+      <stop offset="0.7" stop-color="#bf00ff"/>
+      <stop offset="1" stop-color="#ff00ff"/>
     </linearGradient>
-    <linearGradient id="fadeLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00ffff" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#00ffff" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#bf00ff" stop-opacity="0.8"/>
-      <stop offset="75%" stop-color="#ff00ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#ff00ff" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="scanline" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00ffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00ffff" stop-opacity="0.03"/>
-      <stop offset="100%" stop-color="#00ffff" stop-opacity="0"/>
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ffff" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#00ffff" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#bf00ff" stop-opacity="0.8"/>
+      <stop offset="0.75" stop-color="#ff00ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff00ff" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
@@ -29,39 +24,30 @@
   <rect width="960" height="240" fill="url(#bg)"/>
 
   <!-- Scan lines -->
-  <rect x="0" y="0" width="960" height="4" fill="url(#scanline)"/>
-  <rect x="0" y="40" width="960" height="2" fill="url(#scanline)"/>
-  <rect x="0" y="80" width="960" height="2" fill="url(#scanline)"/>
-  <rect x="0" y="120" width="960" height="4" fill="url(#scanline)"/>
-  <rect x="0" y="160" width="960" height="2" fill="url(#scanline)"/>
-  <rect x="0" y="200" width="960" height="2" fill="url(#scanline)"/>
+  <line x1="0" y1="20" x2="960" y2="20" stroke="#00ffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="80" x2="960" y2="80" stroke="#00ffff" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="0" y1="120" x2="960" y2="120" stroke="#00ffff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#00ffff" stroke-opacity="0.03" stroke-width="1"/>
 
   <!-- Corner accents -->
-  <rect x="20" y="20" width="30" height="2" fill="#00ffff" opacity="0.6"/>
-  <rect x="20" y="20" width="2" height="30" fill="#00ffff" opacity="0.6"/>
-  <rect x="910" y="20" width="30" height="2" fill="#ff00ff" opacity="0.6"/>
-  <rect x="938" y="20" width="2" height="30" fill="#ff00ff" opacity="0.6"/>
-  <rect x="20" y="218" width="2" height="30" fill="#bf00ff" opacity="0.6"/>
-  <rect x="20" y="218" width="30" height="2" fill="#bf00ff" opacity="0.6"/>
-  <rect x="938" y="218" width="30" height="2" fill="#bf00ff" opacity="0.6"/>
-  <rect x="938" y="190" width="2" height="30" fill="#bf00ff" opacity="0.6"/>
+  <path d="M 20 20 L 50 20 M 20 20 L 20 50" stroke="#00ffff" stroke-opacity="0.6" stroke-width="2" fill="none"/>
+  <path d="M 940 20 L 910 20 M 940 20 L 940 50" stroke="#ff00ff" stroke-opacity="0.6" stroke-width="2" fill="none"/>
+  <path d="M 20 220 L 50 220 M 20 220 L 20 190" stroke="#bf00ff" stroke-opacity="0.6" stroke-width="2" fill="none"/>
+  <path d="M 940 220 L 910 220 M 940 220 L 940 190" stroke="#bf00ff" stroke-opacity="0.6" stroke-width="2" fill="none"/>
 
   <!-- Diamond decorations -->
   <polygon points="60,90 65,85 70,90 65,95" fill="#00ffff" opacity="0.4"/>
   <polygon points="890,90 895,85 900,90 895,95" fill="#ff00ff" opacity="0.4"/>
 
   <!-- Main title -->
-  <text x="480" y="110" text-anchor="middle" font-family="Consolas,monospace" font-size="52" font-weight="bold" fill="url(#cyanPurple)" letter-spacing="6">MISAKA4396</text>
-
-  <!-- Glow duplicate (subtle) -->
-  <text x="480" y="110" text-anchor="middle" font-family="Consolas,monospace" font-size="52" font-weight="bold" fill="url(#cyanPurple)" opacity="0.3" letter-spacing="6">MISAKA4396</text>
+  <text x="480" y="115" text-anchor="middle" font-family="monospace" font-size="50" font-weight="bold" fill="url(#cyanPurple)">MISAKA4396</text>
 
   <!-- Subtitle -->
-  <text x="480" y="155" text-anchor="middle" font-family="Consolas,monospace" font-size="15" fill="#bf00ff" letter-spacing="10" opacity="0.85">SYSTEMS AT SCALE</text>
+  <text x="480" y="160" text-anchor="middle" font-family="monospace" font-size="15" fill="#bf00ff" opacity="0.85">S Y S T E M S   A T   S C A L E</text>
 
   <!-- Decorative line under title -->
-  <rect x="240" y="175" width="480" height="2" fill="url(#fadeLine)"/>
+  <rect x="240" y="178" width="480" height="2" fill="url(#fadeLine)"/>
 
   <!-- Bottom text -->
-  <text x="480" y="200" text-anchor="middle" font-family="Consolas,monospace" font-size="11" fill="#00d4ff" opacity="0.5" letter-spacing="4">CODE WITH PRECISION</text>
+  <text x="480" y="205" text-anchor="middle" font-family="monospace" font-size="12" fill="#00d4ff" opacity="0.5">C O D E   W I T H   P R E C I S I O N</text>
 </svg>
